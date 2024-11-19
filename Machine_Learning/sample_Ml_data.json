@@ -1,0 +1,154 @@
+[
+   {
+       "square_footage": 1500,
+       "bedrooms": 3,
+       "bathrooms": 2,
+       "lot_size": 0.25,
+       "year_built": 1995,
+       "location_score": 7
+   },
+   {
+       "square_footage": 2500,
+       "bedrooms": 4,
+       "bathrooms": 3,
+       "lot_size": 0.35,
+       "year_built": 2005,
+       "location_score": 8
+   },
+   {
+       "square_footage": 1200,
+       "bedrooms": 2,
+       "bathrooms": 1,
+       "lot_size": 0.15,
+       "year_built": 1980,
+       "location_score": 6
+   },
+   {
+       "square_footage": 1800,
+       "bedrooms": 3,
+       "bathrooms": 2,
+       "lot_size": 0.20,
+       "year_built": 2010,
+       "location_score": 9
+   },
+   {
+       "square_footage": 3000,
+       "bedrooms": 5,
+       "bathrooms": 4,
+       "lot_size": 0.40,
+       "year_built": 2015,
+       "location_score": 10
+   },
+   {
+       "square_footage": 1600,
+       "bedrooms": 3,
+       "bathrooms": 2,
+       "lot_size": 0.30,
+       "year_built": 1998,
+       "location_score": 7
+   },
+   {
+       "square_footage": 2200,
+       "bedrooms": 4,
+       "bathrooms": 3,
+       "lot_size": 0.28,
+       "year_built": 2003,
+       "location_score": 8
+   },
+   {
+       "square_footage": 1400,
+       "bedrooms": 2,
+       "bathrooms": 1.5,
+       "lot_size": 0.18,
+       "year_built": 1985,
+       "location_score": 6
+   },
+   {
+       "square_footage": 2000,
+       "bedrooms": 4,
+       "bathrooms": 2.5,
+       "lot_size": 0.25,
+       "year_built": 2012,
+       "location_score": 9
+   },
+   {
+       "square_footage": 2800,
+       "bedrooms": 5,
+       "bathrooms": 4.5,
+       "lot_size": 0.45,
+       "year_built": 2018,
+       "location_score": 10
+   },
+   {
+     "square_footage" :1700, 
+     "bedrooms" :3, 
+     "bathrooms" :2, 
+     "lot_size" :0.22, 
+     "year_built" :1997, 
+     "location_score" :8
+   },
+   {
+     "square_footage" :2400, 
+     "bedrooms" :4, 
+     "bathrooms" :3, 
+     "lot_size" :0.33, 
+     "year_built" :2006, 
+     "location_score" :9
+   },
+   {
+     "square_footage" :1300, 
+     "bedrooms" :2, 
+     "bathrooms" :1, 
+     "lot_size" :0.16, 
+     "year_built" :1982, 
+     "location_score" :5
+   },
+   {
+     "square_footage" :1900, 
+     "bedrooms" :3, 
+     "bathrooms" :2, 
+     "lot_size" :0.21, 
+     "year_built" :2011, 
+     "location_score" :8
+   },
+   {
+     "square_footage" :3100, 
+     "bedrooms" :5, 
+     "bathrooms" :4, 
+     "lot_size" :0.42, 
+     "year_built" :2016, 
+     "location_score" :10
+   },
+   {
+        "square_footage" :1650, 
+        "bedrooms" :3, 
+        "bathrooms" :2, 
+        "lot_size" :0.27, 
+        "year_built" :1999, 
+        "location_score" :7
+    },
+    {
+        "square_footage" :2350, 
+        "bedrooms" :4, 
+        "bathrooms" :3, 
+        "lot_size" :0.30, 
+        "year_built" :2004, 
+        "location_score" :8
+    },
+    {
+        "square_footage" :1450, 
+        "bedrooms" :2, 
+        "bathrooms" :1.5, 
+        "lot_size" :0.20, 
+        "year_built" :1988, 
+        "location_score" :6
+    },
+    {
+        "square_footage" :2050, 
+        "bedrooms" :4, 
+        "bathrooms" :2.5, 
+        "lot_size" :0.26, 
+        "year_built" :2013, 
+        "location_score" :9
+    }
+]

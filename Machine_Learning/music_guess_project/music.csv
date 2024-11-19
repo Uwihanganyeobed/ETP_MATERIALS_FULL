@@ -1,0 +1,44 @@
+age,gender,genre
+20,1,HipHop
+23,1,HipHop
+25,1,HipHop
+26,1,Jazz
+29,1,Jazz
+30,1,Jazz
+31,1,Classical
+33,1,Classical
+37,1,Classical
+20,0,Dance
+21,0,Dance
+25,0,Dance
+26,0,Acoustic
+27,0,Acoustic
+30,0,Acoustic
+31,0,Classical
+34,0,Classical
+35,0,Classical
+
+
+import pandas as pd
+from sklearn.tree import DecisionTreeClassifier
+#from sklearn.model_selection import train_test_split
+#from sklearn.metrics import accuracy_score
+from sklearn import tree
+import joblib
+
+music_data = pd.read_csv('music.csv')
+X = music_data.drop(columns=['genre'])
+y = music_data['genre']
+#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
+model = DecisionTreeClassifier()
+#model.fit(X_train,y_train)
+#predictions = model.predict(X_test)
+model.fit(X,y)
+
+#tree.export_graphviz(model,out_file="music-recommender.dot",feature_names=["age","gender"],class_names=sorted(y.unique()),label='all', rounded=True, filled=True)
+#model = joblib.load("music_ recommender.joblib")
+
+#score = accuracy_score(y_test, predictions)
+predictions = model.predict([[36,1]])
+predictions
